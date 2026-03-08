@@ -2,6 +2,9 @@ require("config.options") -- Load general options
 require("config.keymaps") -- Load general keymaps
 require("config.lazy") -- Load lazy package manager has to be loaded after keymaps are set (leader)
 
+-- load colorscheme
+vim.cmd.colorscheme("github_dark_default")
+
 -- LSP configuration
 
 -- pyright
